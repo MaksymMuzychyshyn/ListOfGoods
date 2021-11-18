@@ -1,0 +1,48 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+}
+
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+tr,
+td,
+th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 20px;
+}
+
+td {
+    padding: 5px;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+.header th {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.footer td {
+    color: red;
+    font-weight: 700;
+}
+
+.footer td:hover,
+.body td:hover {
+    background-color: lightblue;
+}

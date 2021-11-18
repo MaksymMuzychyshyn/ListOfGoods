@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <table>
+            <thead>
+                <tr class="header">
+                    <th>Название товара</th>
+                    <th>Количество</th>
+                    <th>Стоимость 1 ед.</th>
+                    <th>Общая стоимость</th>
+                </tr>
+            </thead>
+            <tbody class="body">
+                <tr>
+                    <td>Красный носок</td>
+                    <td><input type="number" name="red-count" id="red-count"></td>
+                    <td><input type="number" name="red-cost" id="red-cost"></td>
+                    <td><span class="red-total total">0</span></td>
+                </tr>
+                <tr>
+                    <td>Синий носок</td>
+                    <td><input type="number" name="blue-count" id="blue-count"></td>
+                    <td><input type="number" name="blue-cost" id="blue-cost"></td>
+                    <td><span class="blue-total total">0</span></td>
+                </tr>
+                <tr>
+                    <td>Бесцветный носок</td>
+                    <td><input type="number" name="transparent-count" id="transparent-count"></td>
+                    <td><input type="number" name="transparent-cost" id="transparent-cost"></td>
+                    <td><span class="transparent-total total">0</span></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="footer">
+                    <td colspan="3">Общая стоимость всех товаров</td>
+                    <td><span class="all-total">0</span></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
